@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kalkulator</title>
+</head>
+
+<body>
+    <h1> Kalkulator Sederhana </h1>
+
+    <form method="POST" action="hitung.php">
+        Bilangan pertama <input type="text" id="pertama" name="pertama" value="pertama">
+        <select name="operasi">
+            <option>Pilih operator</option>
+            <option id="tambah" value="tambah">+</option>
+            <option id="kurang" value="kurang">-</option>
+            <option id="kali" value="kali">x</option>
+            <option id="bagi" value="bagi">/</option>
+            <option id="pangkat" value="pangkat">^</option>
+        </select> Bilangan kedua <input type="text" id="kedua" name="kedua" value="kedua">
+        <input type="submit" name="submit" value="hitung">
+    </form>
+</body>
+
+</html>
