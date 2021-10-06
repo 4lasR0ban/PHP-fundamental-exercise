@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Perhitungan Gaji</title>
+</head>
+
+<body>
+    <h1>Perhitungan Gaji</h1>
+
+    <form method="POST" action="hitungGaji.php">
+        Nama : <input type="text" id="nama" name="nama" value="nama"> Jabatan : <select id="jabatan" name="jabatan" value="jabatan">
+                    <option>Pilih Jabatan</option>
+                    <option id="jpr" value="jpr">Junior Programmer</option>
+                    <option id="spr" value="spr">Senior Programmer</option>
+                    <option id="cto" value="cto">Chief Technology Officer</option>
+                    <option id="man" value="man">Manager</option>
+                  </select> Kinerja : <input type="text" id="kinerja" name="kinerja" value="kinerja">
+        <input type="submit" name="submit" value="hitungGaji">
+    </form>
+</body>
+
+</html>
